@@ -1,0 +1,56 @@
+:root {
+    --color-gray-secondary: #7a777c;
+  }
+
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*cta section*/
+
+ .cta {
+  background-color: #211c24;
+}
+
+.cta > p  {
+    color: var(--color-gray-secondary);
+    font-size: 19px;
+    text-align: center;
+  }
+
+.cta-title{
+    font-size: clamp(4.5rem, 4.5rem + 0vw, 4.5rem);
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.cta-subtitle {
+    font-family: "Figtree", sans-serif;
+    color: var(--color-gray-secondary);
+    text-align: center;
+  }
+
+  .cta-btn {
+    border: 1px solid white;
+    text-align: center;
+    width: 184px;
+    height: 56px;
+    line-height: 56px;
+    border-radius: 5px;
+    margin: 32px auto 48px auto;
+    display: block;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: lighter;
+  }
+
+  .cta-image{
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  }
+  
