@@ -1,5 +1,6 @@
 :root {
     --color-gray-secondary: #7a777c;
+    --color-gray-primary: #909090;
   }
 
 
@@ -7,12 +8,14 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 24px 16px 24px 16px;
 }
 
 /*cta section*/
 
  .cta {
   background-color: #211c24;
+  padding-top: 88px;
 }
 
 .cta > p  {
@@ -32,6 +35,7 @@
     font-family: "Figtree", sans-serif;
     color: var(--color-gray-secondary);
     text-align: center;
+    padding-bottom: 1rem;
   }
 
   .cta-btn {
@@ -50,7 +54,63 @@
 
   .cta-image{
   display: block;
-  width: 100%;
   margin: 0 auto;
   }
+
+  .product {
+   text-align: center;
+   background-color: #fff;  /*#EDEDED é a cor original*/
+      }
+
+   .product figure{
+    padding-top: 40px;
+        
+          }
+
+  .product h2{
+  font-size: 2.125rem;
+  font-weight: normal;
+  padding-top: 24px;
+    }
+
+  .product p{
+   padding-top: 8px; 
+   color: var(--color-gray-primary);
+   font-weight: 600;
+   padding-bottom: 16px;
+  
+ }   
+ 
+ 
+ .visionpro{
+ background-color: #353535;
+ color: #ffffff;
+} 
+
+.macbook{
+  background-color: #EDEDED;
+} 
+
+.product-btn{
+ width: 343px;
+ height: 56px;
+ border: 1px solid #000000;
+ border-radius: 6px;
+ font-size: 1rem;
+ color: #000000;
+ font-size: 16px;
+ padding: 16px 56px 16px 56px;
+ gap: 8px;
+ margin: 32px auto 48px auto;
+ cursor: pointer;
+} 
+
+.product-btn:hover{
+ background-color: #000000;
+ color: #ffffff;
+ } 
+
+
+
+
   
