@@ -194,6 +194,10 @@
   margin-right: 15px;
  }
 
+ .card:hover{
+  cursor: pointer;
+ }
+
  .sales-description{
   display: flex;
   justify-content: space-between;
@@ -201,12 +205,124 @@
 
 .sales{
     margin-bottom: 100px;
+    margin-left:16px;
+    margin-right:16px;
 }
 
- .sales-btn{
+.sales-btn{
+  color: #8B8B8B;
+}
+
+ .sales-btn-active{
+  color: black;
   border-bottom: 2px solid #000000;
  }
 
+
+ .card-item .box {
+ margin-right: 12px;
+ margin-left: 12px;
+ border-radius: 9px;
+ background-color: #F6F6F6;
+ width: 163.5px;
+ height: 352px;
+ text-align: center;
+ margin-top: 10px;
+ margin-bottom: 30px;
+ }
+
+.card-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-item .box p{
+ color: #000000;
+ font-weight: normal;
+ margin-top: 8px;
+ margin-bottom: 24px;
+ margin-right: 12px;
+ margin-left: 12px;
+ 
+ 
+}
+
+.card-item .box h2{
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: -15px;
+}
+
+.card-item-btn {
+  border-radius: 8px;
+  color: white;
+  background-color: #000;
+  width: 139.5px;
+  height: 48px;
+  line-height: 48px;
+  font-size: 14px;
+  font-weight: bold;
+ 
+  
+}
+
+.card-item-btn:hover{
+  background-color: #000;
+  opacity: .9;
+}
+
+.card-item-heart {
+  display: flex;
+  justify-content: space-between;
+  justify-content: right;
+  margin-right: 10px;
+  margin-left: 0;
+  margin-bottom: 8px;
+}
+
+.card-item-heart button{
+  margin-top: 24px;
+}
+
+.card-ipad{
+  background-color: #F9F9F9;
+  align-items: center;
+}
+.card-ipad img{
+  width: 371px;
+  height: 390px;
+  margin:30px;
+}
+
+.card-ipad h1{
+  color: #000000;
+  font-size: 49px;
+  font-weight: 300;
+  line-height: 48px;
+  text-align: center;
+}
+
+.card-ipad p{
+  color: #909090;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+
+}
+
+.card-ipad-btn {
+display: flex;
+align-items: center;
+font-size: 16px;
+width: 196px;
+height: 56px;
+border: 1px solid #000000;
+border-radius: 6px;
+gap: 8px;
+padding:16px 56px 16px 56px;
+margin: 32px auto 48px auto;
+}
 
 
 
